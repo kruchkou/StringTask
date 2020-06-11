@@ -1,4 +1,4 @@
-package by.epamte;
+package by.epamte.StringTask;
 
 public class Main {
 
