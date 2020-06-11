@@ -1,6 +1,6 @@
 package by.epamte.StringTask;
 
-public class Main {
+public class StringTask {
 
     //Task 1
     private static String[] getEvenOddStringsFromString(String inputString) {
