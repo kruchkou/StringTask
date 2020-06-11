@@ -210,19 +210,19 @@ public class StringTask {
     }
 
     //Task 19
-    public static boolean isPalindrome(String inputString) {
+    private static boolean isPalindrome(String inputString) {
         String reversedString = new StringBuilder(inputString).reverse().toString();
 
         return inputString.equals(reversedString);
     }
 
     //Task 20
-    public static String getSubStringSwapped(String inputString, String subString, String replaceWith) {
+    private static String getSubStringSwapped(String inputString, String subString, String replaceWith) {
         return inputString.replaceAll(subString, replaceWith);
     }
 
     //Task 21
-    public static String getSum(String firstNumber, String secondNumber) {
+    private static String getSum(String firstNumber, String secondNumber) {
         StringBuilder result = new StringBuilder();
         int perenos = 0;
         StringBuilder biggerNumStringBuilder;
@@ -267,7 +267,7 @@ public class StringTask {
     }
 
     //Task 22
-    public static String getStringWithDeletedWordsOfLength(String inputString, int length) {
+    private static String getStringWithDeletedWordsOfLength(String inputString, int length) {
         String[] words = inputString.split(" ");
         StringBuilder resultStringBuilder = new StringBuilder();
 
